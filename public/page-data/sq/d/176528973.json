@@ -12,25 +12,13 @@
                     "cover_image":"../../../background.jpeg",
                     "facebook":"nakano.syuto",
                     "twitter":"@shuto_ice",
+                    "github":"SHOOOOUT",
                     "lang":"en",
                     "timezone":"Etc/UTC",
                     "codeinjection_head":null,
                     "codeinjection_foot":null,
                     "codeinjection_styles":"",
-                    "navigation":[
-                        {
-                            "label":"Home",
-                            "url":"/"
-                        },
-                        {
-                            "label":"Tag",
-                            "url":"/tag/getting-started/"
-                        },
-                        {
-                            "label":"Author",
-                            "url":"/author/ghost/"
-                        }
-                    ]
+                    "navigation":[]
                 }
             }
             ]
