@@ -30,6 +30,7 @@
 
     &-description {
       font-size: $typographic-base-font-size;
+      color: $color-base;
       @include line-height(1);
       @include margin-bottom(.75);
     }
@@ -37,8 +38,8 @@
     &-meta {
       &-time {
         font-size: $typographic-small-font-size;
-        color: $color-base;
-        font-weight: 600;
+        color: $color-gray;
+        font-weight: lighter;
         text-transform: uppercase;
       }
 
@@ -49,9 +50,8 @@
       &-category {
         &-link {
           font-size: $typographic-small-font-size;
-          color: $color-secondary;
-          font-weight: 600;
-          text-transform: uppercase;
+          color: $color-gray;
+          font-weight: normal;
 
           &:hover,
           &:focus {
