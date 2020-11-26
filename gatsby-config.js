@@ -44,9 +44,9 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: "G-LDFKCNLFQG",
+        trackingId: 'G-LDFKCNLFQG',
       },
     },
     {
