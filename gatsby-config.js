@@ -16,6 +16,13 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'process.env.GOOGLE_ANALYTICS_ID',
+        head: true,
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/static`,
@@ -42,12 +49,6 @@ module.exports = {
         name: 'css',
         path: `${__dirname}/static/css`
       }
-    },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'G-LDFKCNLFQG',
-      },
     },
     {
       resolve: 'gatsby-plugin-feed',
