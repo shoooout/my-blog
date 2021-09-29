@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://blog.shoooout.com',
   pathPrefix: '/',
-  title: 'Shuto Nakano',
+  title: 'slog',
   subtitle: '徒然なるままに',
   copyright: '© All rights reserved.',
   disqusShortname: '',
@@ -25,9 +25,9 @@ module.exports = {
     } */
   ],
   author: {
-    name: '中野 柊人 (Shuto Nakano)',
+    name: 'shoooout',
     photo: '/photo.png',
-    bio: 'Web Developer',
+    bio: 'Software Engineer',
     contacts: {
       email: '',
       facebook: 'nakano.syuto',
